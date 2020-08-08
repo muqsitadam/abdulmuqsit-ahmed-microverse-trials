@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%
 }
 
 
@@ -43,5 +44,13 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style-type: none;
+    float: right;
 
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 120%;
+    color: black;
 }
