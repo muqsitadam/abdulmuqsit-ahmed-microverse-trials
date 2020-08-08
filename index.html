@@ -1,95 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Fork Me! FCC: Test Suite Template</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-</head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div>
+      <header id="header">
+        <img
+          id="header-img"
+          src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
+          alt=""
+        />
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#features"> Features</a>
+            </li>
+            <li><a class="nav-link" href="#how-it-works"></a>How it work</li>
+            <li><a class="nav-link" href="#pricing"></a>pricing</li>
+          </ul>
+        </nav>
+      </header>
+    </div>
 
-<body>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <div>
-    <header id="header">
-      <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="" />
-      <nav id="nav-bar">
+    <section id="hero">
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Type your email"
+        />
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+    </section>
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-fire" aria-hidden="true"></i>
+          </div>
+          <div class="dic">
+            <h2>
+              Premium Materials
+            </h2>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <div class="dic">
+            <h2>
+              Fast Shipping
+            </h2>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="icon">
+            <i class="fas fa-battery-full"></i>
+          </div>
+          <div class="dic">
+            <h2>
+              Quality Assurance
+            </h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <div>
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </section>
+      <section id="pricing">
+        <div class="product" id="tenor">
+          <div><h1>TENOR TROMBONE</h1></div>
+          <h2>$60</h2>
+          <ol>
+            <li>option 1</li>
+            <li>option 2</li>
+            <li>option 3</li>
+          </ol>
+          <button>SELECT</button>
+        </div>
+        <div class="product" id="bass">
+          <div><h1>BASS TROMBONE</h1></div>
+          <h2>$60</h2>
+          <ol>
+            <li>option 1</li>
+            <li>option 2</li>
+            <li>option 3</li>
+          </ol>
+          <button>SELECT</button>
+        </div>
+        <div class="product" id="valve">
+          <div><h1>VALVE TROMBONE</h1></div>
+          <h2>$60</h2>
+          <ol>
+            <li>option 1</li>
+            <li>option 2</li>
+            <li>option 3</li>
+          </ol>
+          <button>SELECT</button>
+        </div>
+      </section>
+      <footer id="footer">
         <ul>
-          <li>
-            <a class="nav-link" href="#features"> Features</a>
-          </li>
-          <li><a class="nav-link" href="#how-it-works"></a>How it work</li>
-          <li><a class="nav-link" href="#pricing"></a>pricing</li>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Contact</li>
         </ul>
-      </nav>
-    </header>
-  </div>
+        <p>All rights reserved</p>
+      </footer>
+    </div>
 
-  <section id="hero">
-    <h2>Handcrafted, home-made masterpieces</h2>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input name="email" id="email" type="email" placeholder="Type your email" />
-      <input type="submit" id="submit" value="GET STARTED" />
-    </form>
-  </section>
-  <div class="container">
-
-    <section id="features">
-      <div class="grid">
-        <div class="icon">
-          <i class="fa fa-fire" aria-hidden="true"></i>
-        </div>
-        <div class="dic">
-          <h2>
-            premium material 
-          </h2>
-          <p>Lorem ipsum dolor sit amet consectetur, 
-            adipisicing elit. Iure quaerat iusto veritatis accusantium. 
-            Animi aut eius id quidem ipsam in, eveniet omnis fuga,</p>
-        </div>
-      </div>
-
-      <div class="grid">
-        <div class="icon">
-          <i class="fas fa-truck"></i>
-        </div>
-        <div class="dic">
-          <h2>
-            fast shipping  
-          </h2>
-          <p>Lorem ipsum dolor sit amet consectetur, 
-            adipisicing elit. Iure quaerat iusto veritatis accusantium. 
-            Animi aut eius id quidem ipsam in, eveniet omnis fuga,</p>
-        </div>
-      </div>
-
-      <div class="grid">
-        <div class="icon">
-          <i class="fas fa-battery-full"></i>
-        </div>
-        <div class="dic">
-          <h2>
-            quality  assurance 
-          </h2>
-          <p>Lorem ipsum dolor sit amet consectetur, 
-            adipisicing elit. Iure quaerat iusto veritatis accusantium. 
-            Animi aut eius id quidem ipsam in, eveniet omnis fuga,</p>
-        </div>
-      </div>
-
-    </section>
-    <section id="how-it-works">
-    
-    </section>
-    <section id="pricing">
-      
-    </section>
-
-
-  </div>
-
-  <script src="js/index.js"></script>
-</body>
-
+    <script src="js/index.js"></script>
+  </body>
 </html>
